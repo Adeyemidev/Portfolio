@@ -1,0 +1,149 @@
+body{background-color:#101010;
+text-align: left;}
+
+.Mypic{ height: 400px;
+  border-radius: 40px;
+object-fit: cover;
+margin-top: 80px;}
+
+#more{margin: 2% 5%;}
+
+.A-Adeyemi-Web-developer{
+height: 200px;
+width: 150px;
+border-bottom: 1px solid;
+color: white;
+border-color: gray;
+background-color: black;}
+.firstdiv:hover{ color: wheat} 
+
+
+
+.A{font-size: 100px;
+color:#08fdd8 ;
+cursor: pointer;}
+.A:hover{color: #eeeee4;
+transition: 1s;}
+.Adeyemi{position: relative;
+color: white;}
+
+.Contact-form  {height: 55px;
+width: 150px;
+background-color:#181818 ;
+border-bottom: 1px solid;
+border-color: #A8A8A8;
+padding-top: 1px
+}
+
+.thirddiv {height: 55px;
+width: 150px;
+background-color:#181818 ;
+border-bottom: 1px solid;
+border-color: #A8A8A8;
+padding-top: 1px}
+          
+         
+.My-Skills {height: 55px;
+width: 150px;
+background-color:#181818 ;
+border-bottom: 1px solid;
+border-color: #A8A8A8;
+margin: 0;
+padding-top: 1px;}
+
+
+.My-Work{height: 55px;
+width: 150px;
+background-color:#181818 ;
+border-bottom: 1px solid;
+border-color: #A8A8A8;
+padding-top: 1px ;}
+
+.social-media-handle{height: 238px;
+width: 150px;
+background-color:#181818 ;
+border-bottom: 1px solid;
+border-color: #A8A8A8;
+padding-top: 1px;}
+
+  
+h5{color: gray;
+padding: 5px;
+
+cursor: pointer;
+margin-top: 3px;}
+h5:hover{color: aqua;
+transition: 0.5s;}
+
+.all{float: left;;
+text-align: center;}
+.span{margin: 70px 10px  ;
+position: relative;
+right: 100px;} 
+
+.row{padding: 0 3%;}
+.contaa{margin-top: 100px;}
+ 
+.omo{display: flex;
+flex-direction: column-reverse;}
+
+.Front-end{
+ font-family:  'Montserrat-b0ld', sans-serif; 
+ color: #08fdd8;
+ line-height: 2.9rem;
+ font-weight: 600;
+font-size: 48px}
+
+
+a{
+text-decoration: none;}
+.social-icon{font-size:30px;
+  margin: 4px 3px ;
+color: gray;}
+.social-icon:hover{color: gray;}
+
+ 
+
+
+  @media  (max-width:900px) {
+     
+    body{text-align: center}
+    
+  
+    .Mypic{ height: 300px;
+      width: 400px;
+      border-radius: 40px;
+    object-fit: cover;
+    text-align: center;
+    margin-bottom: 30px;
+ margin-top: -5px;
+margin-left: 1px;}
+
+  button{text-align: center;}
+
+  .contaa{margin-top: 50px;}
+  .Front-end{
+    font-family:  'Montserrat-b0ld', sans-serif; 
+    color: #08fdd8;
+    line-height: 2.2rem;
+    font-weight: 600;
+   font-size: 30px;
+    margin-top: 48px;}
+  }
+
+  @media (min-width:1020px) {nav{display: none;}
+    
+  }
+
+
+  
+  
+
+
+
+
+
+
+
+
+

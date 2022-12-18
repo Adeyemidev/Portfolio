@@ -1,0 +1,82 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{background-color:black;
+}
+
+
+
+
+
+.Skills-experience{font-size:6rem;
+font-family: sans-serif;
+color:#08fdd8;
+line-height: 6rem;
+font-weight: 400;
+margin-bottom: 30px;}
+
+section{margin: 4% 2%;}
+        
+.border1{background-color: gray;
+margin-bottom: 7px;
+height: 3px;
+width: 90%;}
+.bordersec{background-color:red;
+    height: 3px;
+    margin-bottom: 7px;
+width:75% ; }
+
+.borderthird{background-color:green;
+height: 3px; 
+margin-bottom: 7px;
+width: 90%;}
+
+.borderforth{background-color:gray;
+    height: 3px; 
+width:80% ;}
+
+    .try{display: flex;
+    justify-content: center;}
+    .div{
+border: 1px solid;
+margin: 5px 10px;
+border-color: gray;}
+.role{
+    font-size: 1.5rem;
+margin-top: 5px;
+padding: 0 20px;}
+.company{padding: 0 20px;}
+
+.row{padding: 5% 3%;}
+
+
+
+@media (max-width:800px) and (min-width:641px) 
+    
+{
+    .Skills-experience{font-size:  4rem;
+        line-height: 3.7rem;
+    text-align: center;}
+    .try{display: block;
+        justify-content: center;}
+
+        .div{border: 1px solid;
+    margin: 10px auto;
+    border-color: gray;}
+}
+
+@media (max-width:633px) {
+
+    .Skills-experience{font-size:  3.5rem;
+        line-height: 3.7rem;
+    text-align: center;}
+
+     .try{display: block;
+        justify-content: center;}
+        .div{
+    border: 1px solid;
+    margin: 10px auto;
+border-color: gray;}
+
+}
